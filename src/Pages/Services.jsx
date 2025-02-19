@@ -75,7 +75,11 @@ function Services() {
 
         {Object.keys(groupedServices).map((category, index) => (
           <div key={index} className="category-section my-6 ">
-            <h2 className="text-2xl font-semibold mb-4 capitalize text-center lg:text-left ">{category}</h2>
+            {/* <h2 className="text-2xl font-semibold mb-4 capitalize text-center lg:text-left ">{category}</h2> */}
+            <h2 className="text-lg text-center md:text-xl lg:px-4 text-2xl font-semibold mb-4 capitalize mx-auto p-4 w-max">
+  {category}
+</h2>
+
             <div className="grid flex sm:grid-cols-6 grid-flow-col overflow-auto lg:grid-cols-6 gap-6">
               {groupedServices[category].map((curElem, idx) => {
                 const { name, description } = curElem;

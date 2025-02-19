@@ -57,7 +57,8 @@ import SponsorDataPortfolio from './Pages/Page/SponsorDataPortfolio';
 import Team from './Pages/Page/Team';
 import Entertainment from './Pages/Entertainment';
 import Services from './Pages/Services';
-
+import Faq from './Pages/Faq';
+import TandQ from './Pages/TandQ';
 
 
 
@@ -72,6 +73,8 @@ const App = () => {
       <Route path="/about" element={<About />}/>
       <Route path="/contact" element={<Contact />}/>
       <Route path="/service" element={<Service />}/>
+      <Route path="/faq" element={<Faq />}/>
+      <Route path="/tandq" element={<TandQ />}/>
       <Route path="/Blog" element={<Blog />}/>
       <Route path="/portfolio" element={<Portfolio />}/>
       <Route path="/register" element={<Register />}/>

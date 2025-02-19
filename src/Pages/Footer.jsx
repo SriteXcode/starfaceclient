@@ -35,7 +35,8 @@ const Footer = () => {
       </div> */}
 
 {/* Elements Dropdown */}
-<div className='relative group mx-2'>
+<div className='relative group mx-2 w-[100px] h-[35px]'>
+
                   {/* <li className='hover:bg-gray-800 px-3 py-2 rounded-md'> */}
                     <NavLink to="/elements" className="text-lg font-semibold mb-2 flex items-center gap-1 text-gray-800 hover:text-gray-800"> 
                       Elements
@@ -69,7 +70,7 @@ const Footer = () => {
         <p>Find answers to common questions.</p>
       </div>
       <div className="md:col-span-1 mt-6">
-      <NavLink to="/terms-and-conditions" className="text-lg font-semibold mb-2 flex items-center gap-1 text-gray-800 hover:text-gray-800"> 
+      <NavLink to="/tandq" className="text-lg font-semibold mb-2 flex items-center gap-1 text-gray-800 hover:text-gray-800"> 
                       Terms & Conditions
                     </NavLink>
         <p>Read our terms and conditions.</p>

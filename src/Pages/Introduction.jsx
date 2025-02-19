@@ -13,7 +13,7 @@ const Introduction = () => {
     gsap.utils.toArray('.circle-item').forEach((element) => {
       gsap.fromTo(
         element,
-        { opacity: 0, x: -100, y: 50 }, // Text animates from left and below
+        { opacity: 0, x:20, y: 50 }, // Text animates from left and below
         {
           opacity: 1,
           x: 0,
@@ -35,7 +35,7 @@ const Introduction = () => {
     gsap.utils.toArray('.circle-image').forEach((image) => {
       gsap.fromTo(
         image,
-        { opacity: 0, x: 100, scale: 0.8 }, // Images animate from right
+        { opacity: 0, x: -100, scale: 0.8 }, // Images animate from right
         {
           opacity: 1,
           x: 0,
@@ -63,12 +63,12 @@ const Introduction = () => {
             urlEndpoint={urlEndpoint}
             path={`/StarFace/Saurabh.jpg`}
             transformation={[{
-              height: 450,
+              height: 450,  
               width: 400,
             }]}
             lqip={{ active: true, quality: 20 }}
             loading="lazy"
-            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+            className="w-full h-full object-cover transition-transform duration-300 radius-16 group-hover:scale-105"
           />
         </div>
         <div className="circle-item col-span-1 md:col-span-2 text-center md:text-left">
