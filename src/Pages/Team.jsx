@@ -60,7 +60,7 @@ const Team = () => {
 
   return (
     <div className={`team-container transition-opacity duration-500 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
-      <h1 className="text-center text-lg font-bold my-4 sticky top-20 bg-white z-10 sm:sticky top-16 text-4xl p-2 bg-white z-10 md:top-20 lg:top-26 text-sm md:text-2xl lg:text-3xl font-black bg-[#EEEEEE]">
+      <h1 className="text-center text-lg lg:font-extrabold text-white py-4 my-4 sticky top-16  z-10 sm:sticky p-2 md:top-20 lg:top-26 md:text-2xl lg:text-3xl font-black bg-[#07020d]">
         Our Team
       </h1>
 
@@ -74,7 +74,7 @@ const Team = () => {
           return (
             <div
               key={id}
-              className="group cursor-pointer overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 bg-white relative transition-transform duration-300 group-hover:scale-105"
+              className="group cursor-pointer overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 bg-white relative  group-hover:scale-105"
               style={{
                 width: `${dimensions.width}px`,
                 height: `${dimensions.height}px`,
