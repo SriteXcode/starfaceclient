@@ -55,16 +55,17 @@ const Introduction = () => {
   }, []);
 
   return (
-    <div className="circle-container px-4 sm:px-6 lg:px-8">
+    <div className="circle-container px-4 sm:px-6 lg:px-8 bg-[#07020d]">
       {/* Introduction Section */}
       <div className="grid grid-cols-1 mt-6 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-        <div className="circle-image z-10 col-span-1 sticky top-24 h-[300px] md:h-[400px] lg:h-[500px]">
+        <div className="circle-image z-10 col-span-1 lg:sticky top-24 h-[300px] md:h-[400px] lg:h-[500px]">
           <IKImage
             urlEndpoint={urlEndpoint}
             path={`/StarFace/Saurabh.jpg`}
             transformation={[{
               height: 450,  
               width: 400,
+              display:"none"
             }]}
             lqip={{ active: true, quality: 20 }}
             loading="lazy"
@@ -72,11 +73,11 @@ const Introduction = () => {
           />
         </div>
         <div className="circle-item col-span-1 md:col-span-2 text-center md:text-left">
-          <h1 className="text-xl mb-4 sm:text-2xl sticky top-16 p-2 bg-[#EEEEEE] sm:top-16 md:top-20 pt-4 lg:top-26 text-sm md:text-2xl lg:text-3xl font-black bg-[#EEEEEE]">
+          <h1 className="mb-4 text-md sticky top-16 p-2 bg-[#07020d] text-white sm:top-16 md:top-20 pt-4 lg:top-26 md:text-2xl lg:text-3xl font-black">
             Welcome to Starface India Talent
           </h1>
-          <hr className="w-16 sm:w-24 mx-auto md:mx-0 mb-6" />
-          <p className="text-gray-600 text-sm sm:text-base lg:text-lg leading-relaxed max-w-lg mx-auto md:mx-0">
+          <hr className="w-full bg-white mx-auto md:mx-0 mb-6" />
+          <p className="text-white text-base p-2 lg:text-lg leading-relaxed max-w-lg mx-auto md:mx-0">
             "Starface India Talent, the pinnacle of creative expression and artistic innovation. As a premier modelling and entertainment agency, we pride ourselves on fostering a nurturing environment where exceptional talent is cultivated, refined, and propelled to stardom.
             Our mission is to bridge the gap between emerging artists and leading industry players, delivering personalized support, expert guidance, and unparalleled opportunities. We strive to empower our talent with the skills, confidence, and networks necessary to succeed in the dynamic world of entertainment.
             At Starface India Talent, we celebrate artistic excellence, diversity, and individuality. Our holistic platform encompasses modelling, acting, and all facets of the entertainment industry, providing a launchpad for aspiring models, actors, and industry professionals to realize their dreams.

@@ -60,11 +60,11 @@ const Apps = () => {
     >
       {currentImages.map((image, index) => (
         <SwiperSlide key={index}>
-          <div className="relative w-full h-full">
+          <div className="relative w-full">
             <img
               src={image}
               alt={`Slide ${index + 1}`}
-              className="w-full h-screen object-cover"
+              className="w-full h-screen object-cover hero-img"
             />
             {/* Centered Text Overlay */}
             <div className="absolute inset-0 flex items-center justify-center">

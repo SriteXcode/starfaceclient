@@ -14,12 +14,19 @@ body {
   padding: 0;
 }
 
+.hero-img{
+  border-radius: 0 !important;
+}
+
+
 .swiper {
+  
   width: 100%;
   height: 85vh;
 }
 
 .swiper-slide {
+  border-radius: 0;
   background-position: center;
   background-size: cover;
 }
@@ -28,3 +35,4 @@ body {
   display: block;
   width: 100%;
 }
+
