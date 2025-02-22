@@ -328,54 +328,7 @@ function Navbar() {
                   </div>
                 </div>
 
-                {/* Mobile Elements Link with dropdown */}
-                <div className="space-y-1 mt-4">
-                  <div
-                    className="px-4 py-2.5 text-base font-medium text-gray-300 flex items-center justify-between cursor-pointer"
-                    onClick={() => toggleDropdown("elements")}
-                  >
-                    Elements
-                    <svg
-                      className={`w-4 h-4 transition-transform duration-200 ${
-                        activeDropdown === "elements" ? "rotate-180" : ""
-                      }`}
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M19 9l-7 7-7-7"
-                      />
-                    </svg>
-                  </div>
-                  <div
-                    className={`${
-                      activeDropdown === "elements" ? "block" : "hidden"
-                    }`}
-                  >
-                    {Elementapi.map((category) => (
-                      <div key={category.category} className="ml-4 space-y-1">
-                        <div className="px-3 py-2 text-sm font-medium text-gray-300">
-                          {category.category}
-                        </div>
-                        {category.data.map((item) => (
-                          <NavLink
-                            key={item.id}
-                            to={item.path}
-                            className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700 pl-8"
-                            style={activeLinkStyle}
-                            onClick={() => setIsMenuOpen(false)}
-                          >
-                            {item.name}
-                          </NavLink>
-                        ))}
-                      </div>
-                    ))}
-                  </div>
-                </div>
+               
 
                 {/* Mobile Vision and Portfolio Links */}
                 <NavLink
