@@ -5,21 +5,21 @@ import Elementapi from '../assets/Api/Elementsapi';
 
 const Footer = () => {
   return (
-    <div className="border-2 border-red-00 grid grid-cols-1 md:grid-cols-3 gap-6 p-6 bg-gray-100 text-gray-800 text-left">
+    <div className="bg-gray-900 grid grid-cols-1 md:grid-cols-3 gap-6 p-6 text-white text-left">
       <div>
-      <NavLink to="/about" className="text-lg font-semibold mb-2 flex items-center gap-1 text-gray-800 hover:text-gray-800"> 
+      <NavLink to="/about" className="text-lg font-semibold mb-2 flex items-center gap-1 text-white hover:text-gray-300"> 
                       About Us
                     </NavLink>
         <p>Learn more about our company and values.</p>
       </div>
       <div>
-      <NavLink to="/service" className="text-lg font-semibold mb-2 flex items-center gap-1 text-gray-800 hover:text-gray-800"> 
+      <NavLink to="/service" className="text-lg font-semibold mb-2 flex items-center gap-1 text-white hover:text-gray-300"> 
                       Services
                     </NavLink>
         <p>Explore the services we offer to our clients.</p>
       </div>
       <div>
-      <NavLink to="/contact" className="text-lg font-semibold mb-2 flex items-center gap-1 text-gray-800 hover:text-gray-800"> 
+      <NavLink to="/contact" className="text-lg font-semibold mb-2 flex items-center gap-1 text-white hover:text-gray-300"> 
                       Contact
                     </NavLink>
         <p>Get in touch with us for inquiries.</p>
@@ -38,7 +38,7 @@ const Footer = () => {
 <div className='relative group mx-2 w-[100px] h-[35px]'>
 
                   {/* <li className='hover:bg-gray-800 px-3 py-2 rounded-md'> */}
-                    <NavLink to="/elements" className="text-lg font-semibold mb-2 flex items-center gap-1 text-gray-800 hover:text-gray-800"> 
+                    <NavLink to="/elements" className="text-lg font-semibold mb-2 flex items-center gap-1 text-white hover:text-gray-300"> 
                       Elements
                       <svg className="w-4 h-4 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
@@ -64,13 +64,15 @@ const Footer = () => {
                 </div>
 
       <div className="md:col-span-1 mt-6">
-      <NavLink to="/faq" className="text-lg font-semibold mb-2 flex items-center gap-1 text-gray-800 hover:text-gray-800"> 
+      <NavLink to="/faq" className="text-lg font-semibold mb-2 flex items-center gap-1 text-white hover:text-gray-300"> 
                       FAQ
                     </NavLink>
         <p>Find answers to common questions.</p>
       </div>
       <div className="md:col-span-1 mt-6">
-      <NavLink to="/tandq" className="text-lg font-semibold mb-2 flex items-center gap-1 text-gray-800 hover:text-gray-800"> 
+        
+      <NavLink to="/terms-and-conditions" className="text-lg font-semibold mb-2 flex items-center gap-1 text-white hover:text-gray-300"> 
+
                       Terms & Conditions
                     </NavLink>
         <p>Read our terms and conditions.</p>
