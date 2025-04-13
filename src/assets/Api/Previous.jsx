@@ -39,15 +39,14 @@ const Previous = [
     link: "./MainHome/FashionStore_Vendors",
     discription: "Fashion Store",
   },
-  // ,
-  // {
-  //     id:6,
-  //     name:"Modelling Agency",
-  //     image: "img1.jpeg",
-  //     alt:"valueofalt",
-  //     link:"./MainHome/Modelling_Agency",
-  //     discription:"Modelling Agency",
-  //     },
+  {
+      id:6,
+      name:"Modelling Agency",
+      image: "img1.jpeg",
+      alt:"valueofalt",
+      link:"./MainHome/Modelling_Agency",
+      discription:"Modelling Agency",
+      },
   //     {
   //         id:7,
   //         name:"Fashion Show",

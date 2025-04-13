@@ -170,15 +170,7 @@ function Navbar() {
                     Portfolio
                   </NavLink>
                 </li>
-                <li className="hover:bg-gray-800 px-3 py-2 rounded-md">
-                  <NavLink
-                    to="/login"
-                    className="block text-gray-300 hover:text-white"
-                    style={activeLinkStyle}
-                  >
-                    Login
-                  </NavLink>
-                </li>
+              
 
                 {/* Auth Links */}
                 {isLoggedIn ? (
@@ -202,6 +194,15 @@ function Navbar() {
                         Register
                       </NavLink>
                     </li>
+                    <li className="hover:bg-gray-800 px-3 py-2 rounded-md">
+                  <NavLink
+                    to="/login"
+                    className="block text-gray-300 hover:text-white"
+                    style={activeLinkStyle}
+                  >
+                    Login
+                  </NavLink>
+                </li>
                   </>
                 )}
               </ul>
