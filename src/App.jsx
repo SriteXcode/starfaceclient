@@ -46,6 +46,7 @@ import Vendors from './Pages/Classic/Vendors';
 import AboutMe from './Pages/Page/AboutMe';
 // import AboutUs from './Pages/Page/AboutUs';
 import Collab from './Pages/Page/Collab';
+import OurSponsors from './Pages/Page/Sponser';
 // import ContactUs from './Pages/Page/ContactUs';
 import GetInTouch from './Pages/Page/GetInTouch';
 import OurClient from './Pages/Page/OurClient';
@@ -111,7 +112,8 @@ const App = () => {
       <Route path='/Classic/Vendors' element={<Vendors/>}/>       
       <Route path='/Page/AboutMe' element={<AboutMe />}/> 
       {/* <Route path='/Page/AboutUs' element={<AboutUs />}/>  */}
-      <Route path='/Page/Collab' element={<Collab />}/>
+      <Route path='/Page/ourCollaboration' element={<Collab />}/>
+      <Route path='/Page/OurSponsors' element={<OurSponsors />}/>
       {/* <Route path='/Page/ContactUs' element={<ContactUs />}/> */}
       <Route path='/Page/GetInTouch' element={<GetInTouch />}/>
       <Route path='/Page/OurClient' element={<OurClient />}/>
