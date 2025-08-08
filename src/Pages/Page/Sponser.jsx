@@ -31,18 +31,20 @@ const OurSponsors = () => {
             const { name, id, image, alt, link, discription } = currElem;
             return (
               <a
-                key={`${id}-${index}`}
-                href={link}
-                target="_blank"
-                rel="noopener noreferrer"
-                title={discription}
-                className="transition-transform hover:scale-105 duration-300"
+              key={`${id}-${index}`}
+              href={link}
+              target="_blank"
+              rel="noopener noreferrer"
+              title={discription}
+              className="transition-transform hover:scale-105 duration-300 flex items-center"
+              style={{ aspectRatio: "3/2", height: "5rem", maxWidth: "7rem" }} // Adjust as needed
               >
-                <img
-                  src={`${urlEndpoint}/StarFace/${name}`}
-                  alt={`${alt}${name}`}
-                  className="h-20 sm:h-24 md:h-28 lg:h-32 object-contain"
-                />
+              <img
+                src={`${urlEndpoint}/StarFace/${name}`}
+                alt={`${alt}${name}`}
+                className="object-contain w-full h-full"
+                style={{ aspectRatio: "7/3" }} // Ensures aspect ratio
+              />
               </a>
             );
           })}
