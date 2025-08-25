@@ -12,7 +12,7 @@ const Pagesapi = [
     {
         id:3,
         name:"Brand Collab",
-        path:"/Page/Collab",
+        path:"/Page/OurCollaboration",
     },
     {
         id:4,

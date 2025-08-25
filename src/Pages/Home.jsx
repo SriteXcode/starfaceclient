@@ -21,11 +21,12 @@ function Home() {
       <Apps />
       <Introduction />
       <Masterpiece />
-      <OurCollaboration />
-      <Sponser />
+      
       {/* Uncomment this if you want to display the collaboration section */}
       {/* {Collab.length > 0 && <OurCollaboration />} */}
       <Services />
+      <OurCollaboration />
+      <Sponser />
       <Team />
       <Whyus />
       <Footer />

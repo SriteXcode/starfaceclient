@@ -38,7 +38,7 @@ const Footer = () => {
 <div className='relative group mx-2 w-[100px] h-[35px]'>
 
                   {/* <li className='hover:bg-gray-800 px-3 py-2 rounded-md'> */}
-                    <NavLink to="/elements" className="text-lg font-semibold mb-2 flex items-center gap-1 text-white hover:text-gray-300"> 
+                    <NavLink className="text-lg font-semibold mb-2 flex items-center gap-1 text-white hover:text-gray-300"> 
                       Elements
                       <svg className="w-4 h-4 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
@@ -71,7 +71,7 @@ const Footer = () => {
       </div>
       <div className="md:col-span-1 mt-6">
         
-      <NavLink to="/terms-and-conditions" className="text-lg font-semibold mb-2 flex items-center gap-1 text-white hover:text-gray-300"> 
+      <NavLink to="/TandQ" className="text-lg font-semibold mb-2 flex items-center gap-1 text-white hover:text-gray-300"> 
 
                       Terms & Conditions
                     </NavLink>
